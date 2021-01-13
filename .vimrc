@@ -1,16 +1,15 @@
 " 插件
 call plug#begin('~/.vim/plugged')
- Plug 'SirVer/ultisnips'
  Plug 'junegunn/vim-emoji'
  Plug 'honza/vim-snippets'
  Plug 'ap/vim-css-color'
  Plug 'scrooloose/nerdtree'
+ Plug 'ryanoasis/vim-devicons'
  Plug 'mhinz/vim-startify'
  Plug 'tpope/vim-fugitive'
  Plug 'lfv89/vim-interestingwords'
  Plug 'morhetz/gruvbox'
  Plug 'neoclide/coc.nvim', {'branch': 'release'}
- "Plug 'neoclide/coc-tsserver'
  Plug 'vim-airline/vim-airline'
  Plug 'vim-airline/vim-airline-themes'
  Plug 'jiangmiao/auto-pairs'
@@ -22,9 +21,12 @@ call plug#begin('~/.vim/plugged')
  Plug 'liuchengxu/vista.vim'
  Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
  Plug 'junegunn/fzf.vim'
+ Plug 'frazrepo/vim-rainbow'
+ Plug 'Yggdroot/indentLine'
 call plug#end()
 
 " 基本设置
+set encoding=UTF-8
 set number " 左侧显示行号
 set showtabline=2 " 左上角显示文件名
 set cursorline " 编辑的行会出现下划线
@@ -82,12 +84,6 @@ noremap <F6> <Esc>:vnew<Space>
 nnoremap <C-a> vggG$
 " 打开文件面板
 nnoremap <F8> :! vim<Enter>
-" 解决小于号被强制补全的问题
-"inoremap < <><ESC>i
-"inoremap <<SPACE> <<ESC><RIGHT>r<SPACE>a
-"inoremap << <<<ESC><RIGHT>r<SPACE>a<BACKSPACE>
-"inoremap <= <=<ESC>a
-"inoremap <> <><Esc>a
 
 
 

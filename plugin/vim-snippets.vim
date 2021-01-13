@@ -1,1 +1,1 @@
-let g:UltiSnipsExpandTrigger="<c-e>"
+"let g:UltiSnipsExpandTrigger="<c-e>"

@@ -11,6 +11,8 @@ and I also install tmux,zsh.
 
     apt-get install silversearcher-ag
 
+    npm install js-beautify typescript eslint -g
+
     git clone https://github.com/zoulam/.vim.git
 
     ln -s ~/.vim/.vimrc ~
@@ -19,7 +21,6 @@ and I also install tmux,zsh.
 
     :PlugInstall
 
-    :CocInstall
 ```
 
 you can input `:h MyShortCuts` read my some shortcut setting.

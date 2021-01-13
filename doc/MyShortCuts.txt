@@ -6,3 +6,7 @@
   F4       " write and quit this buffer
   F5       " run node
   F12      " open|close this code preview
+  gd       " 查看声明(go definition)
+  gr       " 查看使用(go references)
+  gi       " 查看继承(go implementation)
+  gy       " 查看类型(go type definition)

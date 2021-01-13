@@ -6,22 +6,22 @@
 let g:coc_global_extensions = [
             "\ 'coc-bookmark',
             "\ 'coc-cmake',
-            "\ 'coc-css',
+            \ 'coc-css',
             "\ 'coc-emmet',
-            "\ 'coc-eslint',
+            \ 'coc-eslint',
             "\ 'coc-explorer',
             "\ 'coc-flutter',
             "\ 'coc-git',
             "\ 'coc-go',
             "\ 'coc-html',
-            "\ 'coc-json',
+            \ 'coc-json',
             "\ 'coc-julia',
             "\ 'coc-kite',
             "\ 'coc-lists',
             "\ 'coc-marketplace',
             "\ 'coc-pairs',
             "\ 'coc-rls',
-            "\ 'coc-sql',
+            \ 'coc-sql',
             "\ 'coc-stylelint',
             "\ 'coc-todolist',
             "\ 'coc-toml',
@@ -29,7 +29,8 @@ let g:coc_global_extensions = [
             \ 'coc-tsserver',
             "\ 'coc-vetur',
             "\ 'coc-vimlsp',
-            "\ 'coc-webpack',
+            \ 'coc-webpack',
             "\ 'coc-yaml',
             "\ 'coc-yank'
-            \  ]
+            \ 'coc-snippets'
+\  ]
