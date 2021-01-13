@@ -1,0 +1,8 @@
+*shortcuts*
+  ctrl + f " use ag find words in this directory
+  ctrl + p " find files / file
+  F2       " open nerdtree
+  F3       " format code
+  F4       " write and quit this buffer
+  F5       " run node
+  F12      " open|close this code preview

@@ -1,0 +1,35 @@
+" 安装了以下的coc补全插件，可以酌情安装
+" vetur 120+M 的文件大小，tsserver 大概80+M的大小，建议去掉vetur
+" 这是插件手动安装路径，/home/zoulam/.config/coc
+" /home/zoulam/.config/coc/extensions/coc-bookmark-data/bookmark.json
+" 会出现bookmark.json是文件夹的问题，可以手动删除文件夹创建指定文件名
+let g:coc_global_extensions = [
+            "\ 'coc-bookmark',
+            "\ 'coc-cmake',
+            "\ 'coc-css',
+            "\ 'coc-emmet',
+            "\ 'coc-eslint',
+            "\ 'coc-explorer',
+            "\ 'coc-flutter',
+            "\ 'coc-git',
+            "\ 'coc-go',
+            "\ 'coc-html',
+            "\ 'coc-json',
+            "\ 'coc-julia',
+            "\ 'coc-kite',
+            "\ 'coc-lists',
+            "\ 'coc-marketplace',
+            "\ 'coc-pairs',
+            "\ 'coc-rls',
+            "\ 'coc-sql',
+            "\ 'coc-stylelint',
+            "\ 'coc-todolist',
+            "\ 'coc-toml',
+            "\ 'coc-translator',
+            \ 'coc-tsserver',
+            "\ 'coc-vetur',
+            "\ 'coc-vimlsp',
+            "\ 'coc-webpack',
+            "\ 'coc-yaml',
+            "\ 'coc-yank'
+            \  ]
