@@ -1,10 +1,9 @@
 " 插件
 call plug#begin('~/.vim/plugged')
- Plug 'junegunn/vim-emoji'
+ "Plug 'junegunn/vim-emoji'
  Plug 'honza/vim-snippets'
  Plug 'ap/vim-css-color'
  Plug 'scrooloose/nerdtree'
- Plug 'ryanoasis/vim-devicons'
  Plug 'mhinz/vim-startify'
  Plug 'tpope/vim-fugitive'
  Plug 'lfv89/vim-interestingwords'
