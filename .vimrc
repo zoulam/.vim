@@ -101,4 +101,3 @@ else
   autocmd BufRead,BufNewFile *.js noremap <F5> :echo "command not found:"node", please install node"
 endif
 
-
